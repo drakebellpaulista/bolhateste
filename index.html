@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bolha App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="header-left">
+      <button class="add-user-btn">+</button>
+    </div>
+    <div class="header-center">
+      <img src="https://i.pinimg.com/originals/70/fd/76/70fd7694e0b38859c15eacc816c9dba0.gif" alt="Bolha Logo">
+    </div>
+    <div class="header-right">
+      <button class="settings-btn">-</button>
+    </div>
+  </header>
+
+  <main>
+    <div class="slide-container">
+      <img class="slide" src="https://i.pinimg.com/originals/a0/e7/11/a0e71142749eebb66cd12a18d3aeb625.jpg" alt="Post 1">
+      <img class="slide" src="https://i.pinimg.com/originals/7b/0a/37/7b0a37bc352b9ac2a716aff3988d336d.jpg" alt="Post 2">
+    </div>
+    <div class="user-icons">
+      <img class="user-icon" src="https://i.pinimg.com/originals/f0/04/53/f0045344073a008b7ee7578d0b36b9a4.jpg" alt="@Katarina_Alves">
+      <img class="user-icon" src="https://i.pinimg.com/564x/05/d1/ae/05d1aec9bfb192a091e1ce91f70e6d7f.jpg" alt="@fa_morais">
+    </div>
+  </main>
+
+  <div class="add-user-popup">
+    <div class="user-popup-content">
+      <div class="user-popup-header">
+        <button class="close-popup-btn">X</button>
+      </div>
+      <div class="user-popup-body">
+        <input type="text" id="new-user-input" placeholder="Enter username">
+        <button class="add-user-confirm-btn">Add User</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
